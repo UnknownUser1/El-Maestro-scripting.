@@ -16,9 +16,7 @@ import org.rev317.api.wrappers.scene.SceneObject;
 
 import java.awt.*;
 
-/**
- * Created by Bautista on 2/15/14.
- */
+
 public class RuneCraft implements Strategy {
     SceneObject altar = SceneObjects.getNearest(Constants.ALTAR_ID)[0];
 

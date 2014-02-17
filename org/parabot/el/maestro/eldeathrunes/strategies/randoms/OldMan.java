@@ -1,6 +1,7 @@
 package org.parabot.el.maestro.eldeathrunes.strategies.randoms;
 
 import org.parabot.el.maestro.eldeathrunes.core.Core;
+import org.parabot.el.maestro.eldeathrunes.data.Variables;
 import org.parabot.environment.scripts.framework.Strategy;
 import org.rev317.api.methods.Inventory;
 import org.rev317.api.methods.Npcs;
@@ -44,6 +45,7 @@ public class OldMan implements Strategy {
                 break;
             }
         }
+        Variables.setRandomsSolved(Variables.getRandomsSolved() + 1);
     }
 
 }

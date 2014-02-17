@@ -10,9 +10,7 @@ import org.rev317.api.methods.Menu;
 
 import java.awt.*;
 
-/**
- * Created by Bautista on 2/16/14.
- */
+
 public class BankHandler implements Strategy {
     @Override
     public boolean activate() {

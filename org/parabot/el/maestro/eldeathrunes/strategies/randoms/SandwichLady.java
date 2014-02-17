@@ -45,7 +45,7 @@ public class SandwichLady implements Strategy {
                 break;
             }
         }
-
+        Variables.setRandomsSolved(Variables.getRandomsSolved() + 1);
     }
 
 }

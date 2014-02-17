@@ -4,13 +4,38 @@ import org.parabot.environment.scripts.framework.Strategy;
 
 import java.util.ArrayList;
 
-/**
- * Created by Bautista on 2/15/14.
- */
+
 public class Variables {
     private static ArrayList<Strategy> strategies = new ArrayList<>();
     private static int pkpEarned;
+    private static int randomsSolved;
+    private static String status;
     private static int runesMade;
+    private static boolean hidePaint = false;
+
+    public static boolean getHidePaint() {
+        return hidePaint;
+    }
+
+    public static void setHidePaint(boolean i) {
+        hidePaint = i;
+    }
+
+    public static String getStatus() {
+        return status;
+    }
+
+    public static void setStatus(String i) {
+        status = i;
+    }
+
+    public static int getRandomsSolved() {
+        return randomsSolved;
+    }
+
+    public static void setRandomsSolved(int i) {
+        randomsSolved = i;
+    }
 
     public static int getRunesMade() {
         return runesMade;

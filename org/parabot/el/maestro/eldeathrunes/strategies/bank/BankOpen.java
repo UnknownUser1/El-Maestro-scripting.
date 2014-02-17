@@ -10,9 +10,7 @@ import org.rev317.api.methods.Camera;
 import org.rev317.api.methods.Inventory;
 import org.rev317.api.wrappers.scene.SceneObject;
 
-/**
- * Created by Bautista on 2/16/14.
- */
+
 public class BankOpen implements Strategy {
     public static SceneObject bank = Bank.getNearestBanks()[0];
 
